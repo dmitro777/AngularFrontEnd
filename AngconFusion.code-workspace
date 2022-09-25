@@ -1,0 +1,82 @@
+{
+	"folders": [
+        {
+            "path": "."
+        }
+    ],
+      "settings": {
+            
+            "terminal.integrated.cwd": "C:\\Users\\userd\\Documents\\web-dev\\angularapps\\confusion",
+            "code-runner.cwd": "C:\\Users\\userd\\Documents\\web-dev\\angularapps\\confusion",
+            "powershell.cwd": "C:\\Users\\userd\\Documents\\web-dev\\angularapps\\confusion",
+            "terminal.integrated.cursorStyle": "line",
+            "terminal.integrated.enableBell": true,      
+            "workbench.panel.defaultLocation": "right",
+            "code-runner.runInTerminal": true,
+            "editor.tabCompletion": "on",
+            "powershell.buttons.showPanelMovementButtons": true,
+            "[json]": {
+
+                "editor.quickSuggestions": {
+                    "strings": true
+                },
+                "editor.suggest.insertMode": "replace"
+            },                                     
+            "files.autoGuessEncoding": true,
+            "files.associations": {
+                    "*.ts": "typescript",
+                    "*.js": "javascript",
+                    "*.html": "html",
+                    "*.scss": "scss"
+                },
+            "[c]": {
+
+            "editor.wordBasedSuggestions": true,
+            "editor.suggest.insertMode": "replace",
+            "editor.semanticHighlighting.enabled": true,
+            "editor.quickSuggestions": {
+                "comments": "on",
+                "strings": "on",
+                "other": "on"
+            }
+                },
+            "terminal.integrated.profiles.windows": {
+            
+                "PowerShell": {
+                    "source": "PowerShell",
+                    "icon": "terminal-powershell"
+                },
+                "Command Prompt": {
+                    "path": [
+                        "${env:windir}\\Sysnative\\cmd.exe",
+                        "${env:windir}\\System32\\cmd.exe"
+                    ],
+                    "args": [],
+                    "icon": "terminal-cmd"
+                },
+                "Git Bash": {
+                    "source": "Git Bash"
+                }
+            },
+            "js/ts.implicitProjectConfig.strictFunctionTypes": false
+        },
+        "launch": {
+            "version": "0.2.0",
+            "configurations": [
+            
+                {
+                    "type": "pwa-node",
+                    "request": "launch",
+                    "name": "Launch Program",
+                    "skipFiles": [
+                        "<node_internals>/**"
+                    ],
+                    "program": "c:\\Users\\userd\\Documents\\web-dev\\AngularApps\\conFusion\\src\\app\\dishdetail\\dishdetail.component.ts",
+                    "__workspaceFolder": "c:\\Users\\userd\\Documents\\web-dev\\AngularApps\\conFusion\\src\\app\\dishdetail",
+                    "outFiles": [
+                        "${workspaceFolder}/**/*.js"
+                    ]
+                }
+            ]
+        }
+}

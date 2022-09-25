@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import 'variables';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
+@import '../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+}
+
+$lt-gray: #ddd;
+$background-dark: #512DA8;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+$primary-color-dark: #512DA8;
+$primary-color: #673AB7;
+$primary-color-light: #D1C4E9;
+$primary-color-text: #FFFFFF;
+$accent-color: #FFC107;
+$primary-text-color: #212121;
+$secondary-text-color: #757575;
+$divider-color: #BDBDBD;
+@mixin zero-margin($pad-up-down, $pad-left-right) {
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+.background-primary {
+    background-color: $background-dark!important;
+}
+
+.background-accent {
+    background-color: $accent-color!important;
+}
+
+.text-floral-white {
+    color: floralwhite!important;
+}
+
+.flex-spacer {
+    flex: 1 1 auto;
+}
+
+.highlight {
+    background-color: $background-pale;
+    border: 1px solid $primary-color-dark;
+    z-index: 1;
+    transform: scale(1.01);
+}
+
+.errors {
+    color: red;
+}
+
+#gradientBg {
+    background-image: linear-gradient(to right, #673AB7, #d1b7ff);
+}
+
+#gradientBgFooter {
+    background-image: linear-gradient(to top, #673AB7, #b386ff);
+}
+
+#gradientBgGP {
+    background-image: radial-gradient(circle, #ff330096 15%, #caa9ff 75%);
+}
+
+#gradientBgFB {
+    background-image: radial-gradient(circle, #2f00ffa1 15%, #caa9ff 75%);
+}
+
+#gradientBgIN {
+    background-image: radial-gradient(circle, #0184ffa8 15%, #caa9ff 75%);
+}
+
+#gradientBgTW {
+    background-image: radial-gradient(circle, #00d5ffa4 15%, #caa9ff 75%);
+}
+
+#gradientBgYT {
+    background-image: radial-gradient(circle, #ff3300a2 15%, #caa9ff 75%);
+}
+
+#gradientBgM {
+    background-image: radial-gradient(circle, #683ab7c0, #d1b7ff);
+}
+
+#gradientMenu {
+    background-image: linear-gradient(to right, #512DA8, rgb(242, 147, 255));
+}
