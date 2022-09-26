@@ -6,15 +6,11 @@
     ],
       "settings": {
             
-            "terminal.integrated.cwd": "C:\\Users\\userd\\Documents\\web-dev\\angularapps\\confusion",
-            "code-runner.cwd": "C:\\Users\\userd\\Documents\\web-dev\\angularapps\\confusion",
-            "powershell.cwd": "C:\\Users\\userd\\Documents\\web-dev\\angularapps\\confusion",
+            "terminal.integrated.cwd": "C:\\Users\\Dmitr\\OneDrive\\Documents\\AngularFrontEnd",
             "terminal.integrated.cursorStyle": "line",
             "terminal.integrated.enableBell": true,      
             "workbench.panel.defaultLocation": "right",
-            "code-runner.runInTerminal": true,
             "editor.tabCompletion": "on",
-            "powershell.buttons.showPanelMovementButtons": true,
             "[json]": {
 
                 "editor.quickSuggestions": {
@@ -58,21 +54,20 @@
                     "source": "Git Bash"
                 }
             },
-            "js/ts.implicitProjectConfig.strictFunctionTypes": false
+            "js/ts.implicitProjectConfig.strictFunctionTypes": false,
         },
         "launch": {
             "version": "0.2.0",
             "configurations": [
             
                 {
-                    "type": "pwa-node",
+                    "type": "node",
                     "request": "launch",
                     "name": "Launch Program",
                     "skipFiles": [
                         "<node_internals>/**"
                     ],
-                    "program": "c:\\Users\\userd\\Documents\\web-dev\\AngularApps\\conFusion\\src\\app\\dishdetail\\dishdetail.component.ts",
-                    "__workspaceFolder": "c:\\Users\\userd\\Documents\\web-dev\\AngularApps\\conFusion\\src\\app\\dishdetail",
+                    "program": "c:\\Users\\userd\\Documents\\AngularFrontEnd\\src\\app\\dishdetail\\dishdetail.component.ts",
                     "outFiles": [
                         "${workspaceFolder}/**/*.js"
                     ]
